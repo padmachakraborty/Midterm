@@ -8,7 +8,7 @@ public class Speed {
 
 [System.Serializable]
 public class Boundary {
-	public float xMin, xMax, yMin, yMax;
+	public float xMin=-290f, xMax=290f, yMin=-290f, yMax=290f;
 }
 
 

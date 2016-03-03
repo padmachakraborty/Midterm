@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
+	
 	// PUBLIC INSTANCE VARIABLES
-	public int tankCount;
+	public int tankCount=4;
 	public GameObject tank;
 	
 	// Use this for initialization
